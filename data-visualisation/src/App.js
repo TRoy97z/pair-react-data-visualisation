@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./components/Header";
 import "./App.css";
 import CriminalFetcher from "./components/CriminalFetcher";
+import LocationFetcher from "./components/LocationFetcher";
 
 class App extends React.Component {
   render() {
@@ -9,6 +10,7 @@ class App extends React.Component {
       <main>
         <Header />
         <CriminalFetcher />
+        <LocationFetcher />
       </main>
     );
   }

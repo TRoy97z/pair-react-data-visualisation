@@ -29,7 +29,7 @@ class CriminalFetcher extends Component {
       crimes && (
         <>
           <CriminalList crimes={crimes} />
-          <button onClick={this.sortCrimes}>click</button>
+          <button onClick={this.sortCrimes}>Sort</button>
         </>
       )
     );
